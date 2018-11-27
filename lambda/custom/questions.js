@@ -4,7 +4,30 @@ module.exports = {
    * Make sure you use question marks.
    * Make sure the first answer is the correct one.
    * Set at least ANSWER_COUNT answers, any extras will be shuffled in.
-   */
+   */ 
+  QUESTIONS_IT_IT: [
+    {
+      'Le renne hanno un manto molto spesso, quanti peli per pollice quadrato hanno?': [
+        '13,000',
+        '1,200',
+        '5,000',
+        '700',
+        '1,000',
+        '120,000',
+      ],
+    },
+    {
+      'Rudolph la renna dal naso rosso, il film del 1964 è stato girato in? ': [
+        'Japan',
+        'United States',
+        'Finland',
+        'Germany',
+        'Canada',
+        'Norway',
+        'France',
+      ],
+    },
+  ],
   QUESTIONS_EN_GB: [
     {
       'Reindeer have very thick coats, how many hairs per square inch do they have?': [
